@@ -38,8 +38,8 @@ const App = () => {
         </div>
 
         <Card>
-            <CardBody>
-                {items} + "<br></br>"
+            <CardBody className='bg-dark'>
+                <h4 className='text-white'>{items}</h4>
             </CardBody>
         </Card>
     </div>
